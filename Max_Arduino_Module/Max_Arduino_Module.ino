@@ -1,5 +1,5 @@
 /* 
- VERSIE feb 2019 / v2.1.0
+ VERSIE maart 2021
  ---- CMD SimpleMessageSystem ----
  Control Arduino board functions with the following messages:
  
@@ -36,8 +36,9 @@
 Servo myservo;  // create servo object to control a servo  
 
 
-// list the digital ports which are used as input
+// list the digital ports which are used as input // CHANGE THIS IF YOU NEED MORE THEN ONE SERVO OR ANOTHER I/O SETTING
 int digitalPorts[] = {2,3,4,5,6,7,8,9,10,11,12,13};
+//int digitalPorts[] = {2,4,7,8,9,12,13}; pins 3 5 6 10 11 are reserved for servo output
 
 // list the analog ports which are used as input
 int analogPorts[] = {0,1,2,3,4,5};
@@ -46,12 +47,11 @@ int analogPorts[] = {0,1,2,3,4,5};
 void setup()
 {
 
-  // The following command initiates the serial port at 57600 baud. 
+  // The following command initiates the serial port at 9600 baud. 
   // If you have any problem connecting try lower baud rate. 
 
-  Serial.begin(57600); //Baudrate set at 57600 for use with more then one servo motor, CHANGE!
+  Serial.begin(9600); //
 
-// Enable pulups
 // Enables pullup resistors on the arduino board. Which means you can connect buttons ed. directely to the pins. (comment out for non pullup use) 
 
 //for (int i = 2;i<14;i++){ // pin 2 to 13
