@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1980.0, 253.0, 1023.0, 702.0 ],
+		"rect" : [ 161.0, 114.0, 1023.0, 702.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -2330,8 +2330,8 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "int", "" ],
-									"patching_rect" : [ 91.0, 209.5, 234.0, 29.0 ],
-									"text" : "serial # 9600 @autoopen 0"
+									"patching_rect" : [ 91.0, 209.5, 244.0, 29.0 ],
+									"text" : "serial # 57600 @autoopen 0"
 								}
 
 							}

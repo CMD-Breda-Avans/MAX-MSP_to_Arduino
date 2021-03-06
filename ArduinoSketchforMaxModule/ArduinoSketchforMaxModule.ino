@@ -50,7 +50,7 @@ void setup()
   // The following command initiates the serial port at 9600 baud. 
   // If you have any problem connecting try lower baud rate. 
 
-  Serial.begin(9600); //
+  Serial.begin(57600); //
 
 // Enables pullup resistors on the arduino board. Which means you can connect buttons ed. directely to the pins. (comment out for non pullup use) 
 
