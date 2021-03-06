@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 57.0, 106.0, 1034.0, 714.0 ],
+		"rect" : [ 1819.0, 337.0, 1034.0, 714.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -72,7 +72,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 30.5, 349.0, 664.0, 248.0 ],
-					"text" : "Basic info:\nInstructions:\n\nVersion 2021\n\nOn the topside of the module you have data inlets to send data to Arduino\nOn the bottom there data outlets. Here we get data from the arduino\n\nFIRST: Upload the Max_Arduino_Module.ino sketch to your arduino \n\n1. Press the 'SYSTEM ON / OFF' in module. If no connection is established the menu on the right will say \"no arduino connected\". A good connection will show you the serial port your arduino is connected to.\n2. To readout analog and digtal pins press READOUT ... ON / OFF (don't use if you are only writing to arduino)\n3. Now you can select individual pins \n4. You can switch the function of data inlets 3, 5, 6, 9 & 10 on the topside of the module to be digital, analog or servo mode (default = digital. (Note: you can connect multiple servo motors but HAVE to turn specfic pins OFF IN THE ARDUINO CODE as input pins to write to them!\n"
+					"text" : "Basic info:\nInstructions:\n\nVersion 2021\n\nOn the topside of the module you have data inlets to send data to Arduino\nOn the bottom there data outlets. Here we get data from the arduino\n\nFIRST: Upload the ArduinoSketchforMaxModule.ino sketch to your arduino \n\n1. Press the 'SYSTEM ON / OFF' in module. If no connection is established the menu on the right will say \"no arduino connected\". A good connection will show you the serial port your arduino is connected to.\n2. To readout analog and digtal pins press READOUT ... ON / OFF (don't use if you are only writing to arduino)\n3. Now you can select individual pins \n4. You can switch the function of data inlets 3, 5, 6, 9 & 10 on the topside of the module to be digital, analog or servo mode (default = digital. (Note: you can connect multiple servo motors but HAVE to turn specfic pins OFF IN THE ARDUINO CODE as input pins to write to them!\n"
 				}
 
 			}
