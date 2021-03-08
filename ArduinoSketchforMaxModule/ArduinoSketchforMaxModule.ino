@@ -47,7 +47,7 @@ int analogPorts[] = {0,1,2,3,4,5};
 void setup()
 {
 
-  // The following command initiates the serial port at 9600 baud. 
+  // The following command initiates the serial port at 57600 baud. 
   // If you have any problem connecting try lower baud rate. 
 
   Serial.begin(57600); //
