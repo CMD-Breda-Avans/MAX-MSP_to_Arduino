@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1819.0, 337.0, 1034.0, 714.0 ],
+		"rect" : [ 159.0, 151.0, 1034.0, 714.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -103,7 +103,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 362.0, 229.0, 736.0, 338.0 ],
+						"rect" : [ 161.0, 114.0, 1023.0, 702.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 12.0,
@@ -2423,8 +2423,8 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "int", "" ],
-													"patching_rect" : [ 91.0, 209.5, 234.0, 29.0 ],
-													"text" : "serial # 9600 @autoopen 0"
+													"patching_rect" : [ 91.0, 209.5, 244.0, 29.0 ],
+													"text" : "serial # 57600 @autoopen 0"
 												}
 
 											}
@@ -2624,7 +2624,7 @@
 									"bgfillcolor_proportion" : 0.5,
 									"bgfillcolor_type" : "gradient",
 									"id" : "obj-3",
-									"items" : [ "BoseFrames-SPPDev", ",", "markerphone6-WirelessiA", ",", "ProjectsSuck-Bluetooth-", ",", "Bluetooth-Incoming-Port", ",", "SamsungLevelover-SPPDev", ",", "usbmodem1434101" ],
+									"items" : "<empty>",
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
