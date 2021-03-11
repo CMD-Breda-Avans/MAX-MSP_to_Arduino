@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 288.0, 106.0, 901.0, 719.0 ],
+		"rect" : [ 1844.0, 142.0, 901.0, 719.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -49,7 +49,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "jit_matrix" ],
-					"patching_rect" : [ 425.0, 478.160021972656295, 433.0, 171.846874999999983 ],
+					"patching_rect" : [ 442.0, 478.160021972656295, 433.0, 171.846874999999983 ],
 					"pic" : "/Users/markie/Documents/GitHub/CMD_Breda/MAX-MSP_to_Arduino/Extra/Arduino_EarClip_HeartrateSensor.png"
 				}
 
@@ -88,7 +88,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 84.0, 322.0, 227.0, 78.0 ],
-					"text" : "We need this chaNge object to filter out repetitions of the same data.\nNotice that we use the second outlet... This tells us when the data changes from 0 to 1."
+					"text" : "We need this change object to filter out repetitions of the same data.\nNotice that we use the second outlet... This tells us when the data changes from 0 to 1."
 				}
 
 			}
