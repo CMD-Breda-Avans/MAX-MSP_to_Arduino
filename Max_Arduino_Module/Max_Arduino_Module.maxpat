@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 92.0, 107.0, 782.0, 714.0 ],
+		"rect" : [ 87.0, 87.0, 782.0, 714.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -55,12 +55,12 @@
 					"bubble" : 1,
 					"bubbleside" : 3,
 					"id" : "obj-3",
-					"linecount" : 2,
+					"linecount" : 3,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 461.0, 9.0, 174.0, 37.0 ],
-					"text" : "Use this toggle to see if the onboard led is working"
+					"patching_rect" : [ 461.0, 9.0, 174.0, 51.0 ],
+					"text" : "Use this toggle to see if the onboard led on pin 13 is working"
 				}
 
 			}
@@ -104,7 +104,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 161.0, 114.0, 1023.0, 702.0 ],
+						"rect" : [ 161.0, 114.0, 941.0, 719.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 12.0,
@@ -153,7 +153,6 @@
 									"bgoncolor" : [ 0.019607843137255, 0.780392156862745, 0.274509803921569, 1.0 ],
 									"blinktime" : 153,
 									"fontface" : 0,
-									"fontlink" : 1,
 									"fontsize" : 10.0,
 									"hint" : "",
 									"id" : "obj-33",
@@ -166,7 +165,7 @@
 									"parameter_enable" : 1,
 									"patching_rect" : [ 319.993415832519531, 356.982574462890625, 166.576171875, 19.171875 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 347.967406988143921, 99.342941284179688, 166.576171875, 19.171875 ],
+									"presentation_rect" : [ 431.852042714754759, 135.0, 193.341103719175806, 19.171875 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
 											"parameter_initial" : [ 0 ],
@@ -183,7 +182,7 @@
 									"spacing_x" : 19.0,
 									"text" : "READ ANALOG  ON / OFF",
 									"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"texton" : "ANALOG ON  ",
+									"texton" : "ANALOG READOUT ON  ",
 									"textoncolor" : [ 0.905882, 0.909804, 0.917647, 1.0 ],
 									"textovercolor" : [ 0.1, 0.1, 0.1, 1.0 ],
 									"tosymbol" : 0,
@@ -216,8 +215,6 @@
 									"outlettype" : [ "", "" ],
 									"parameter_enable" : 1,
 									"patching_rect" : [ 721.4742431640625, 558.66668701171875, 78.0, 22.0 ],
-									"presentation" : 1,
-									"presentation_rect" : [ 553.785473585128784, 45.541282653808594, 78.0, 22.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
 											"parameter_enum" : [ "val1", "val2" ],
@@ -831,7 +828,6 @@
 									"bgoncolor" : [ 0.019607843137255, 0.780392156862745, 0.274509803921569, 1.0 ],
 									"blinktime" : 153,
 									"fontface" : 0,
-									"fontlink" : 1,
 									"fontsize" : 10.0,
 									"hint" : "",
 									"id" : "obj-7",
@@ -844,7 +840,7 @@
 									"parameter_enable" : 1,
 									"patching_rect" : [ 131.991119384765625, 356.982574462890625, 163.231437683105469, 19.171875 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 171.158322095870972, 99.342941284179688, 163.231437683105469, 19.171875 ],
+									"presentation_rect" : [ 8.71367621421814, 135.0, 412.491084098815918, 19.171875 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
 											"parameter_initial" : [ 0 ],
@@ -861,7 +857,7 @@
 									"spacing_x" : 19.0,
 									"text" : "READ DIGITAL  ON / OFF",
 									"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"texton" : "DIGITAL ON  ",
+									"texton" : "DIGITAL READOUT ON  ",
 									"textoncolor" : [ 0.905882, 0.909804, 0.917647, 1.0 ],
 									"textovercolor" : [ 0.1, 0.1, 0.1, 1.0 ],
 									"tosymbol" : 0,
@@ -2649,7 +2645,7 @@
 									"bgfillcolor_proportion" : 0.5,
 									"bgfillcolor_type" : "gradient",
 									"id" : "obj-3",
-									"items" : "<empty>",
+									"items" : [ "no", "arduino", "connected", ",", "wlan-debug", ",", "dinggoo", ",", "Bluetooth-Incoming-Port" ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -2657,7 +2653,7 @@
 									"parameter_enable" : 0,
 									"patching_rect" : [ 243.991119384765625, 637.173583984375, 159.5, 22.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 8.71367621421814, 126.225753784179688, 130.243014335632324, 22.0 ]
+									"presentation_rect" : [ 495.0, 98.225753784179688, 130.243014335632324, 22.0 ]
 								}
 
 							}
@@ -2833,7 +2829,7 @@
 
 									}
 ,
-									"text" : "OFF",
+									"text" : "ON",
 									"texton" : "ON",
 									"varname" : "textbutton[21]"
 								}
@@ -2874,7 +2870,7 @@
 
 									}
 ,
-									"text" : "OFF",
+									"text" : "ON",
 									"texton" : "ON",
 									"varname" : "textbutton[20]"
 								}
@@ -2915,7 +2911,7 @@
 
 									}
 ,
-									"text" : "OFF",
+									"text" : "ON",
 									"texton" : "ON",
 									"varname" : "textbutton[19]"
 								}
@@ -2956,7 +2952,7 @@
 
 									}
 ,
-									"text" : "OFF",
+									"text" : "ON",
 									"texton" : "ON",
 									"varname" : "textbutton[18]"
 								}
@@ -2997,7 +2993,7 @@
 
 									}
 ,
-									"text" : "OFF",
+									"text" : "ON",
 									"texton" : "ON",
 									"varname" : "textbutton[17]"
 								}
@@ -3038,7 +3034,7 @@
 
 									}
 ,
-									"text" : "OFF",
+									"text" : "ON",
 									"texton" : "ON",
 									"varname" : "textbutton[16]"
 								}
@@ -3079,7 +3075,7 @@
 
 									}
 ,
-									"text" : "OFF",
+									"text" : "ON",
 									"texton" : "ON",
 									"varname" : "textbutton[15]"
 								}
@@ -3120,7 +3116,7 @@
 
 									}
 ,
-									"text" : "OFF",
+									"text" : "ON",
 									"texton" : "ON",
 									"varname" : "textbutton[14]"
 								}
@@ -3161,7 +3157,7 @@
 
 									}
 ,
-									"text" : "OFF",
+									"text" : "ON",
 									"texton" : "ON",
 									"varname" : "textbutton[13]"
 								}
@@ -3202,7 +3198,7 @@
 
 									}
 ,
-									"text" : "OFF",
+									"text" : "ON",
 									"texton" : "ON",
 									"varname" : "textbutton[12]"
 								}
@@ -3243,7 +3239,7 @@
 
 									}
 ,
-									"text" : "OFF",
+									"text" : "ON",
 									"texton" : "ON",
 									"varname" : "textbutton[11]"
 								}
@@ -3284,7 +3280,7 @@
 
 									}
 ,
-									"text" : "OFF",
+									"text" : "ON",
 									"texton" : "ON",
 									"varname" : "textbutton[10]"
 								}
@@ -3312,7 +3308,7 @@
 									"parameter_enable" : 1,
 									"patching_rect" : [ 1123.659912109375, 709.8819580078125, 28.399999618530273, 14.800000190734863 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 609.968884229660034, 164.619781494140625, 28.399999618530273, 14.800000190734863 ],
+									"presentation_rect" : [ 596.793146815400291, 164.286448160807282, 28.399999618530273, 14.800000190734863 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
 											"parameter_enum" : [ "val1", "val2" ],
@@ -3324,7 +3320,7 @@
 
 									}
 ,
-									"text" : "OFF",
+									"text" : "ON",
 									"texton" : "ON",
 									"varname" : "textbutton[9]"
 								}
@@ -3352,7 +3348,7 @@
 									"parameter_enable" : 1,
 									"patching_rect" : [ 1064.639892578125, 709.8819580078125, 28.399999618530273, 14.800000190734863 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 573.012158155441284, 164.619781494140625, 28.399999618530273, 14.800000190734863 ],
+									"presentation_rect" : [ 563.804925995271105, 164.286448160807282, 28.399999618530273, 14.800000190734863 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
 											"parameter_enum" : [ "val1", "val2" ],
@@ -3364,7 +3360,7 @@
 
 									}
 ,
-									"text" : "OFF",
+									"text" : "ON",
 									"texton" : "ON",
 									"varname" : "textbutton[7]"
 								}
@@ -3392,7 +3388,7 @@
 									"parameter_enable" : 1,
 									"patching_rect" : [ 1005.61993408203125, 709.8819580078125, 28.399999618530273, 14.800000190734863 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 536.055493116378784, 164.619781494140625, 28.399999618530273, 14.800000190734863 ],
+									"presentation_rect" : [ 530.816705175142033, 164.286448160807282, 28.399999618530273, 14.800000190734863 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
 											"parameter_enum" : [ "val1", "val2" ],
@@ -3404,7 +3400,7 @@
 
 									}
 ,
-									"text" : "OFF",
+									"text" : "ON",
 									"texton" : "ON",
 									"varname" : "textbutton[6]"
 								}
@@ -3432,7 +3428,7 @@
 									"parameter_enable" : 1,
 									"patching_rect" : [ 946.5999755859375, 709.8819580078125, 28.399999618530273, 14.800000190734863 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 499.098767042160034, 164.619781494140625, 28.399999618530273, 14.800000190734863 ],
+									"presentation_rect" : [ 497.828484355012904, 164.286448160807282, 28.399999618530273, 14.800000190734863 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
 											"parameter_enum" : [ "val1", "val2" ],
@@ -3444,7 +3440,7 @@
 
 									}
 ,
-									"text" : "OFF",
+									"text" : "ON",
 									"texton" : "ON",
 									"varname" : "textbutton[5]"
 								}
@@ -3472,7 +3468,7 @@
 									"parameter_enable" : 1,
 									"patching_rect" : [ 887.58001708984375, 709.8819580078125, 28.399999618530273, 14.800000190734863 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 462.142071485519409, 164.619781494140625, 28.399999618530273, 14.800000190734863 ],
+									"presentation_rect" : [ 464.840263534883832, 164.286448160807282, 28.399999618530273, 14.800000190734863 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
 											"parameter_enum" : [ "val1", "val2" ],
@@ -3484,7 +3480,7 @@
 
 									}
 ,
-									"text" : "OFF",
+									"text" : "ON",
 									"texton" : "ON",
 									"varname" : "textbutton[4]"
 								}
@@ -3512,7 +3508,7 @@
 									"parameter_enable" : 1,
 									"patching_rect" : [ 825.36309814453125, 709.8819580078125, 28.399999618530273, 14.800000190734863 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 425.185375928878784, 164.619781494140625, 28.399999618530273, 14.800000190734863 ],
+									"presentation_rect" : [ 431.852042714754759, 164.286448160807282, 28.399999618530273, 14.800000190734863 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
 											"parameter_enum" : [ "val1", "val2" ],
@@ -3524,7 +3520,7 @@
 
 									}
 ,
-									"text" : "OFF",
+									"text" : "ON",
 									"texton" : "ON",
 									"varname" : "textbutton[8]"
 								}
@@ -3555,7 +3551,7 @@
 									"patching_rect" : [ 424.86376953125, 569.09332275390625, 148.0, 27.0 ],
 									"presentation" : 1,
 									"presentation_linecount" : 2,
-									"presentation_rect" : [ 521.109661817550659, 132.0, 114.0, 27.0 ],
+									"presentation_rect" : [ 520.590234279632568, 58.341285705566406, 114.0, 27.0 ],
 									"text" : "CMD Max Arduino Module\n2023",
 									"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 									"textjustification" : 2
@@ -8214,7 +8210,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 26.0, 68.0, 641.0, 249.0 ],
+					"patching_rect" : [ 24.0, 62.0, 641.0, 249.0 ],
 					"viewvisibility" : 1
 				}
 
