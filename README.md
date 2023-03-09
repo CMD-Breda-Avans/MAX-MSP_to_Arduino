@@ -1,12 +1,12 @@
 # MAX-MSP-to-Arduino
 Collection of Max patches for use in module Sensors &amp; Senses
 
-Arduino to Max module (main Max patch, source and arduino code)
 Basic info version 2023 
-(baudrate is set to 9600) If you have connection problems while using multiple IO try changing arduino code IO)
+(baudrate is set to 115200) If you have connection problems while using multiple IO try changing arduino code IO)
+Sensor readout is set to 50ms
 
-On the topside of the module you have data inlets to write data to Arduino
-On the bottom there data outlets. Here we read data from the arduino
+On the topside of the module you have data inlets to write to Arduino
+On the bottom there data outlets. Here we read from the arduino
 
 !!!!!!!!!!!!!!!!FIRST: Upload the ArduinoSketchforMaxModule.ino sketch to your arduino IT WILL NOT WORK WITH OTHER ARDUINO CODE!!!!!!!!!
 
