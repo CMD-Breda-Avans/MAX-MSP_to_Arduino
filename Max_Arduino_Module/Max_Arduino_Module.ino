@@ -36,7 +36,7 @@
 Servo myservo;  // create servo object to control a servo  
 
 
-// list the digital ports which are used as input // CHANGE THIS IF YOU NEED MORE THEN ONE SERVO OR ANOTHER I/O SETTING
+// list the digital ports which are used as input // CHANGE THIS IF YOU EXPERIENCING CONNECTION PROBLEMS OR NEED MORE THEN ONE SERVO OR ANOTHER I/O SETTING
 int digitalPorts[] = {2,3,4,5,6,7,8,9,10,11,12,13};
 //int digitalPorts[] = {2,4,7,8,9,12,13}; pins 3 5 6 10 11 are reserved for servo output
 
@@ -50,7 +50,7 @@ void setup()
   // The following command initiates the serial port at 57600 baud. 
   // If you have any problem connecting try lower baud rate. 
 
-  Serial.begin(57600); //
+  Serial.begin(9600); //
 
 // Enables pullup resistors on the arduino board. Which means you can connect buttons ed. directely to the pins. (comment out for non pullup use) 
 

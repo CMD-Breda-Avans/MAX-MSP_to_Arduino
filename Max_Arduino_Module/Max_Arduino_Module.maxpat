@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 1,
-			"revision" : 10,
+			"minor" : 5,
+			"revision" : 3,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 159.0, 151.0, 1034.0, 714.0 ],
+		"rect" : [ 92.0, 107.0, 782.0, 714.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -67,12 +67,12 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-6",
-					"linecount" : 17,
+					"linecount" : 19,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 30.5, 349.0, 664.0, 248.0 ],
-					"text" : "Basic info:\nInstructions:\n\nVersion 2021\n\nOn the topside of the module you have data inlets to send data to Arduino\nOn the bottom there data outlets. Here we get data from the arduino\n\nFIRST: Upload the ArduinoSketchforMaxModule.ino sketch to your arduino \n\n1. Press the 'SYSTEM ON / OFF' in module. If no connection is established the menu on the right will say \"no arduino connected\". A good connection will show you the serial port your arduino is connected to.\n2. To readout analog and digtal pins press READOUT ... ON / OFF (don't use if you are only writing to arduino)\n3. Now you can select individual pins \n4. You can switch the function of data inlets 3, 5, 6, 9 & 10 on the topside of the module to be digital, analog or servo mode (default = digital. (Note: you can connect multiple servo motors but HAVE to turn specfic pins OFF IN THE ARDUINO CODE as input pins to write to them!\n"
+					"patching_rect" : [ 26.0, 339.0, 664.0, 275.0 ],
+					"text" : "Basic info:\nInstructions:\n\nVersion 2023 \n(baudrate is set to 9600)\nIf you have connection problems while using multiple IO try changing arduino code IO)\n\nOn the topside of the module you have data inlets to send data to Arduino\nOn the bottom there data outlets. Here we get data from the arduino\n\nFIRST: Upload the ArduinoSketchforMaxModule.ino sketch to your arduino \n\n1. Press the 'SYSTEM ON / OFF' in module. If no connection is established the menu on the right will say \"no arduino connected\". A good connection will show you the serial port your arduino is connected to.\n2. To readout analog and digtal pins press READOUT ... ON / OFF (don't use if you are only writing to arduino)\n3. Now you can select individual pins \n4. You can switch the function of data inlets 3, 5, 6, 9 & 10 on the topside of the module to be digital, analog or servo mode (default = digital. (Note: you can connect multiple servo motors but HAVE to turn specfic pins OFF IN THE ARDUINO CODE as input pins to write to them!\n"
 				}
 
 			}
@@ -86,8 +86,9 @@
 					"enablevscroll" : 0,
 					"id" : "obj-1",
 					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "Arduino_Max_Module_Source_V2021.maxpat",
+					"name" : "Arduino_Max_Module_Source_V2023.maxpat",
 					"numinlets" : 12,
 					"numoutlets" : 18,
 					"offset" : [ 0.0, 0.0 ],
@@ -96,8 +97,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 1,
-							"revision" : 10,
+							"minor" : 5,
+							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -491,6 +492,30 @@
 									"presentation_rect" : [ 171.158322095870972, -0.734431505203247, 15.0, 15.0 ],
 									"rounded" : 15.0,
 									"saved_attribute_attributes" : 									{
+										"activebgcolor" : 										{
+											"expression" : ""
+										}
+,
+										"activebgoncolor" : 										{
+											"expression" : ""
+										}
+,
+										"bgcolor" : 										{
+											"expression" : ""
+										}
+,
+										"bgoncolor" : 										{
+											"expression" : ""
+										}
+,
+										"bordercolor" : 										{
+											"expression" : ""
+										}
+,
+										"focusbordercolor" : 										{
+											"expression" : ""
+										}
+,
 										"valueof" : 										{
 											"parameter_enum" : [ "off", "on" ],
 											"parameter_initial" : [ 0.0 ],
@@ -634,8 +659,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 1,
-											"revision" : 10,
+											"minor" : 5,
+											"revision" : 3,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -856,8 +881,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 1,
-											"revision" : 10,
+											"minor" : 5,
+											"revision" : 3,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -929,8 +954,8 @@
 														"fileversion" : 1,
 														"appversion" : 														{
 															"major" : 8,
-															"minor" : 1,
-															"revision" : 10,
+															"minor" : 5,
+															"revision" : 3,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -1145,8 +1170,8 @@
 														"fileversion" : 1,
 														"appversion" : 														{
 															"major" : 8,
-															"minor" : 1,
-															"revision" : 10,
+															"minor" : 5,
+															"revision" : 3,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -1245,8 +1270,8 @@
 																		"fileversion" : 1,
 																		"appversion" : 																		{
 																			"major" : 8,
-																			"minor" : 1,
-																			"revision" : 10,
+																			"minor" : 5,
+																			"revision" : 3,
 																			"architecture" : "x64",
 																			"modernui" : 1
 																		}
@@ -2021,8 +2046,8 @@
 														"fileversion" : 1,
 														"appversion" : 														{
 															"major" : 8,
-															"minor" : 1,
-															"revision" : 10,
+															"minor" : 5,
+															"revision" : 3,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -2181,8 +2206,8 @@
 														"fileversion" : 1,
 														"appversion" : 														{
 															"major" : 8,
-															"minor" : 1,
-															"revision" : 10,
+															"minor" : 5,
+															"revision" : 3,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -2423,8 +2448,8 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "int", "" ],
-													"patching_rect" : [ 91.0, 209.5, 244.0, 29.0 ],
-													"text" : "serial # 57600 @autoopen 0"
+													"patching_rect" : [ 91.0, 209.5, 234.0, 29.0 ],
+													"text" : "serial # 9600 @autoopen 0"
 												}
 
 											}
@@ -3530,8 +3555,8 @@
 									"patching_rect" : [ 424.86376953125, 569.09332275390625, 148.0, 27.0 ],
 									"presentation" : 1,
 									"presentation_linecount" : 2,
-									"presentation_rect" : [ 499.098767042160034, 132.0, 135.999969482421875, 27.0 ],
-									"text" : "CMD Max Arduino Module\n2021",
+									"presentation_rect" : [ 521.109661817550659, 132.0, 114.0, 27.0 ],
+									"text" : "CMD Max Arduino Module\n2023",
 									"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 									"textjustification" : 2
 								}
@@ -3550,14 +3575,14 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 1,
-											"revision" : 10,
+											"minor" : 5,
+											"revision" : 3,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
 ,
 										"classnamespace" : "box",
-										"rect" : [ 34.0, 79.0, 617.0, 710.0 ],
+										"rect" : [ 34.0, 87.0, 617.0, 710.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 0,
 										"default_fontsize" : 12.0,
@@ -3606,7 +3631,7 @@
 													"numinlets" : 1,
 													"numoutlets" : 0,
 													"patching_rect" : [ 12.0, 12.0, 789.0, 3358.0 ],
-													"text" : "/* \n VERSIE maart 2021\n ---- CMD SimpleMessageSystem ----\n Control Arduino board functions with the following messages:\n \n r a -> read analog pins\n r d -> read digital pins\n w d [pin] [value] -> write digital pin\n w a [pin] [value] -> write analog pin\n w s [pin] [value] -> write servo pin\n \n \n Base: Thomas Ouellet Fredericks \n Additions: Alexandre Quessy, Thijs Eerens, Mark Meeuwenoord, Thomas Huster\n \n */\n\n /*\n  ---- Grove Starter Kit ----\n\n  Grove_Button, 2, 3, 4, 5, 6, 7, 8 || Read digital\n  Grove_Buzzer, Advanced, Check Arduino Code\n  Grove_LED,  3, 5, 6 || Write Analog\n  Grove_Light_Sensor, A0, A1, A2, A3 || Read Analog\n  Grove_Relay, 2, 3, 4, 5, 6, 7, 8  || Write digital\n  Grove_RGB_Backlight_LCD, Advanced, Check Arduino Code\n  Grove_Rotary_Angle_Sensor, A0, A1, A2, A3 || Read Analog\n  Grove_Servo,  3, 5, 6 || Write Servo\n  Grove_Grove_Sound_Sensor, A0, A1, A2, A3 || Read Analog\n  Grove_Temperature_Sensor, A0, A1, A2, A3 || Read Analog + for accurate result check Arduino Code. \n \n */\n\n#include <Servo.h> \n\nServo myservo;  // create servo object to control a servo  \n\n\n// list the digital ports which are used as input // CHANGE THIS IF YOU NEED MORE THEN ONE SERVO OR ANOTHER I/O SETTING\nint digitalPorts[] = {2,3,4,5,6,7,8,9,10,11,12,13};\n//int digitalPorts[] = {2,4,7,8,9,12,13}; pins 3 5 6 10 11 are reserved for servo output\n\n// list the analog ports which are used as input\nint analogPorts[] = {0,1,2,3,4,5};\n\n\nvoid setup()\n{\n\n  // The following command initiates the serial port at 57600 baud. \n  // If you have any problem connecting try lower baud rate. \n\n  Serial.begin(57600); //\n\n// Enables pullup resistors on the arduino board. Which means you can connect buttons ed. directely to the pins. (comment out for non pullup use) \n\n//for (int i = 2;i<14;i++){ // pin 2 to 13\n//    digitalWrite(i,HIGH); \n//}\n\n}\n\nvoid loop()\n{\n\n  if (messageBuild() > 0) { // Checks to see if the message is complete and erases any previous messages\n    switch (messageGetChar()) { // Gets the first word as a character\n    case 'r': // Read pins (analog or digital)\n      readpins(); // Call the readpins function\n      break; // Break from the switch\n    case 'w': // Write pin\n      writepin(); // Call the writepin function\n    }\n\n  }\n\n}\n\nvoid readpins(){ // Read pins (analog or digital)\n\n  int size;\n  \n  switch (messageGetChar()) { // Gets the next word as a character\n\n    case 'd': // READ digital pins\n    messageSendChar('d');  // Echo what is being read\n    \n    \n    size = sizeof(digitalPorts) / sizeof(int); // get number of ports in digitalPorts list\n    \n    for (int thisPin = 0; thisPin < size; thisPin++) {\n      messageSendInt(digitalRead(digitalPorts[thisPin])); // read each digital pin in the list\n    }\n    \n\n      messageEnd(); // Terminate the message being sent\n    break; // Break from the switch\n\n    case 'a': // READ analog pins\n    messageSendChar('a');  // Echo what is being read\n    \n    size = sizeof(analogPorts) / sizeof(int); // get number of ports in analogPorts list\n    \n    for (int thisPin = 0; thisPin < size; thisPin++) {\n      messageSendInt(analogRead(analogPorts[thisPin])); // read each digital pin in the list\n    }\n\n\n      messageEnd(); // Terminate the message being sent\n  }\n\n}\n\nvoid writepin() { // Write pin\n\n    int pin;\n  int state;\n\n  switch (messageGetChar()) { // Gets the next word as a character\n\n    case 'a' : // WRITE an analog pin\n\n    pin = messageGetInt(); // Gets the next word as an integer\n    state = messageGetInt(); // Gets the next word as an integer\n    pinMode(pin, OUTPUT); //Sets the state of the pin to an output\n    analogWrite(pin, state); //Sets the PWM of the pin \n    break;  // Break from the switch\n\n\n    // WRITE a digital pin\n  case 'd' : \n\n    pin = messageGetInt();  // Gets the next word as an integer\n    state = messageGetInt();  // Gets the next word as an integer\n    pinMode(pin,OUTPUT);  //Sets the state of the pin to an output\n    digitalWrite(pin,state);  //Sets the state of the pin HIGH (1) or LOW (0)\n\n\n      // WRITE a servo pin \n  case 's' : \n\n    pin = messageGetInt();  // Gets the next word as an integer\n    state = messageGetInt();  // Gets the next word as an integer\n    myservo.attach(pin);  // attaches the servo on pin to the servo object \n    myservo.write(state);  // sets the servo position according to the scaled value \n\n  }\n\n}\n\n/////////////////////////////////// LIBRARY ///////////////////////////////////////////\n\n#define MESSAGE_BUFFER_SIZE 64\n#define MESSAGE_BUFFER_LAST_ELEMENT 63\n\nchar messageState = 0;\nchar messageBufferSerialByte;\nint messageBufferIndex = 0;\nchar messageBuffer[MESSAGE_BUFFER_SIZE];\nchar *messageBufferLast;\nchar *messageBufferWord;\nchar messageSendState = 0;\n\nint messageGetInt() {\n\n    if (messageNext()) return atoi(messageBufferWord);\n\n  return 0;\n\n}\n\nchar messageNext() {\n\n  char * temppointer= NULL;\n  switch (messageState) {\n  case 0:\n    return 0;\n  case 1:\n    temppointer = messageBuffer;\n    messageState = 2;\n  default:\n    messageBufferWord = strtok_r(temppointer,\" \",&messageBufferLast);\n    if (messageBufferWord != NULL) return 1;\n  }\n  return 0;\n}\n\nchar messageGetChar() {\n\n \n    if (messageNext()) return messageBufferWord[0];\n  return 0;\n\n}\n\nint messageBuild() {\n\n  int size = 0;\n  messageState = 0;\n  while (Serial.available() > 0) {\n    messageBufferSerialByte = Serial.read();\n\n    switch (messageBufferSerialByte) {\n    case 10:\n      break;\n    case 13:\n      size = messageBufferIndex;\n      messageBuffer[messageBufferIndex]=0;\n      messageBufferIndex=0;\n      messageState = 1;\n\n      break;\n    default:\n      messageBuffer[messageBufferIndex]=messageBufferSerialByte;\n      messageBufferIndex = messageBufferIndex + 1;\n    }\n    if (messageBufferIndex >= MESSAGE_BUFFER_LAST_ELEMENT) messageBufferIndex=0;\n  }\n  \n  \n  \n  return size;\n}\n\n// OUTPUT MESSAGES CODE\n\nvoid messageSendChar(char value) {\n\n  messageSpacer();\n  Serial.print(value);\n}\n\nvoid messageSendInt(int value) {\n\n  messageSpacer();\n  Serial.print(value); \n}\n\nvoid messageEnd() {\n\n  messageSendState = 0;\n  Serial.println();\n}\n\nvoid messageSpacer() {\n\n  if (messageSendState==1) Serial.print((char) 32);\n  messageSendState = 1;\n\n}"
+													"text" : "/* \n VERSIE maart 2021\n ---- CMD SimpleMessageSystem ----\n Control Arduino board functions with the following messages:\n \n r a -> read analog pins\n r d -> read digital pins\n w d [pin] [value] -> write digital pin\n w a [pin] [value] -> write analog pin\n w s [pin] [value] -> write servo pin\n \n \n Base: Thomas Ouellet Fredericks \n Additions: Alexandre Quessy, Thijs Eerens, Mark Meeuwenoord, Thomas Huster\n \n */\n\n /*\n  ---- Grove Starter Kit ----\n\n  Grove_Button, 2, 3, 4, 5, 6, 7, 8 || Read digital\n  Grove_Buzzer, Advanced, Check Arduino Code\n  Grove_LED,  3, 5, 6 || Write Analog\n  Grove_Light_Sensor, A0, A1, A2, A3 || Read Analog\n  Grove_Relay, 2, 3, 4, 5, 6, 7, 8  || Write digital\n  Grove_RGB_Backlight_LCD, Advanced, Check Arduino Code\n  Grove_Rotary_Angle_Sensor, A0, A1, A2, A3 || Read Analog\n  Grove_Servo,  3, 5, 6 || Write Servo\n  Grove_Grove_Sound_Sensor, A0, A1, A2, A3 || Read Analog\n  Grove_Temperature_Sensor, A0, A1, A2, A3 || Read Analog + for accurate result check Arduino Code. \n \n */\n\n#include <Servo.h> \n\nServo myservo;  // create servo object to control a servo  \n\n\n// list the digital ports which are used as input // CHANGE THIS IF YOU NEED MORE THEN ONE SERVO OR ANOTHER I/O SETTING\nint digitalPorts[] = {2,3,4,5,6,7,8,9,10,11,12,13};\n//int digitalPorts[] = {2,4,7,8,9,12,13}; pins 3 5 6 10 11 are reserved for servo output\n\n// list the analog ports which are used as input\nint analogPorts[] = {0,1,2,3,4,5};\n\n\nvoid setup()\n{\n\n  // The following command initiates the serial port at 9600 baud. \n  // If you have any problem connecting try lower baud rate. \n\n  Serial.begin(9600); //\n\n// Enables pullup resistors on the arduino board. Which means you can connect buttons ed. directely to the pins. (comment out for non pullup use) \n\n//for (int i = 2;i<14;i++){ // pin 2 to 13\n//    digitalWrite(i,HIGH); \n//}\n\n}\n\nvoid loop()\n{\n\n  if (messageBuild() > 0) { // Checks to see if the message is complete and erases any previous messages\n    switch (messageGetChar()) { // Gets the first word as a character\n    case 'r': // Read pins (analog or digital)\n      readpins(); // Call the readpins function\n      break; // Break from the switch\n    case 'w': // Write pin\n      writepin(); // Call the writepin function\n    }\n\n  }\n\n}\n\nvoid readpins(){ // Read pins (analog or digital)\n\n  int size;\n  \n  switch (messageGetChar()) { // Gets the next word as a character\n\n    case 'd': // READ digital pins\n    messageSendChar('d');  // Echo what is being read\n    \n    \n    size = sizeof(digitalPorts) / sizeof(int); // get number of ports in digitalPorts list\n    \n    for (int thisPin = 0; thisPin < size; thisPin++) {\n      messageSendInt(digitalRead(digitalPorts[thisPin])); // read each digital pin in the list\n    }\n    \n\n      messageEnd(); // Terminate the message being sent\n    break; // Break from the switch\n\n    case 'a': // READ analog pins\n    messageSendChar('a');  // Echo what is being read\n    \n    size = sizeof(analogPorts) / sizeof(int); // get number of ports in analogPorts list\n    \n    for (int thisPin = 0; thisPin < size; thisPin++) {\n      messageSendInt(analogRead(analogPorts[thisPin])); // read each digital pin in the list\n    }\n\n\n      messageEnd(); // Terminate the message being sent\n  }\n\n}\n\nvoid writepin() { // Write pin\n\n    int pin;\n  int state;\n\n  switch (messageGetChar()) { // Gets the next word as a character\n\n    case 'a' : // WRITE an analog pin\n\n    pin = messageGetInt(); // Gets the next word as an integer\n    state = messageGetInt(); // Gets the next word as an integer\n    pinMode(pin, OUTPUT); //Sets the state of the pin to an output\n    analogWrite(pin, state); //Sets the PWM of the pin \n    break;  // Break from the switch\n\n\n    // WRITE a digital pin\n  case 'd' : \n\n    pin = messageGetInt();  // Gets the next word as an integer\n    state = messageGetInt();  // Gets the next word as an integer\n    pinMode(pin,OUTPUT);  //Sets the state of the pin to an output\n    digitalWrite(pin,state);  //Sets the state of the pin HIGH (1) or LOW (0)\n\n\n      // WRITE a servo pin \n  case 's' : \n\n    pin = messageGetInt();  // Gets the next word as an integer\n    state = messageGetInt();  // Gets the next word as an integer\n    myservo.attach(pin);  // attaches the servo on pin to the servo object \n    myservo.write(state);  // sets the servo position according to the scaled value \n\n  }\n\n}\n\n/////////////////////////////////// LIBRARY ///////////////////////////////////////////\n\n#define MESSAGE_BUFFER_SIZE 64\n#define MESSAGE_BUFFER_LAST_ELEMENT 63\n\nchar messageState = 0;\nchar messageBufferSerialByte;\nint messageBufferIndex = 0;\nchar messageBuffer[MESSAGE_BUFFER_SIZE];\nchar *messageBufferLast;\nchar *messageBufferWord;\nchar messageSendState = 0;\n\nint messageGetInt() {\n\n    if (messageNext()) return atoi(messageBufferWord);\n\n  return 0;\n\n}\n\nchar messageNext() {\n\n  char * temppointer= NULL;\n  switch (messageState) {\n  case 0:\n    return 0;\n  case 1:\n    temppointer = messageBuffer;\n    messageState = 2;\n  default:\n    messageBufferWord = strtok_r(temppointer,\" \",&messageBufferLast);\n    if (messageBufferWord != NULL) return 1;\n  }\n  return 0;\n}\n\nchar messageGetChar() {\n\n \n    if (messageNext()) return messageBufferWord[0];\n  return 0;\n\n}\n\nint messageBuild() {\n\n  int size = 0;\n  messageState = 0;\n  while (Serial.available() > 0) {\n    messageBufferSerialByte = Serial.read();\n\n    switch (messageBufferSerialByte) {\n    case 10:\n      break;\n    case 13:\n      size = messageBufferIndex;\n      messageBuffer[messageBufferIndex]=0;\n      messageBufferIndex=0;\n      messageState = 1;\n\n      break;\n    default:\n      messageBuffer[messageBufferIndex]=messageBufferSerialByte;\n      messageBufferIndex = messageBufferIndex + 1;\n    }\n    if (messageBufferIndex >= MESSAGE_BUFFER_LAST_ELEMENT) messageBufferIndex=0;\n  }\n  \n  \n  \n  return size;\n}\n\n// OUTPUT MESSAGES CODE\n\nvoid messageSendChar(char value) {\n\n  messageSpacer();\n  Serial.print(value);\n}\n\nvoid messageSendInt(int value) {\n\n  messageSpacer();\n  Serial.print(value); \n}\n\nvoid messageEnd() {\n\n  messageSendState = 0;\n  Serial.println();\n}\n\nvoid messageSpacer() {\n\n  if (messageSendState==1) Serial.print((char) 32);\n  messageSendState = 1;\n\n}"
 												}
 
 											}
@@ -3643,6 +3668,22 @@
 									"presentation" : 1,
 									"presentation_rect" : [ 597.116711378097534, 195.906005859375, 44.0, 48.0 ],
 									"saved_attribute_attributes" : 									{
+										"activedialcolor" : 										{
+											"expression" : ""
+										}
+,
+										"activeneedlecolor" : 										{
+											"expression" : ""
+										}
+,
+										"dialcolor" : 										{
+											"expression" : ""
+										}
+,
+										"textcolor" : 										{
+											"expression" : ""
+										}
+,
 										"valueof" : 										{
 											"parameter_longname" : "A5",
 											"parameter_mmax" : 1023.0,
@@ -3673,6 +3714,22 @@
 									"presentation" : 1,
 									"presentation_rect" : [ 564.712963819503784, 195.906005859375, 44.0, 48.0 ],
 									"saved_attribute_attributes" : 									{
+										"activedialcolor" : 										{
+											"expression" : ""
+										}
+,
+										"activeneedlecolor" : 										{
+											"expression" : ""
+										}
+,
+										"dialcolor" : 										{
+											"expression" : ""
+										}
+,
+										"textcolor" : 										{
+											"expression" : ""
+										}
+,
 										"valueof" : 										{
 											"parameter_linknames" : 1,
 											"parameter_longname" : "A4",
@@ -3704,6 +3761,22 @@
 									"presentation" : 1,
 									"presentation_rect" : [ 528.382946729660034, 195.906005859375, 44.0, 48.0 ],
 									"saved_attribute_attributes" : 									{
+										"activedialcolor" : 										{
+											"expression" : ""
+										}
+,
+										"activeneedlecolor" : 										{
+											"expression" : ""
+										}
+,
+										"dialcolor" : 										{
+											"expression" : ""
+										}
+,
+										"textcolor" : 										{
+											"expression" : ""
+										}
+,
 										"valueof" : 										{
 											"parameter_longname" : "A3",
 											"parameter_mmax" : 1023.0,
@@ -3734,6 +3807,22 @@
 									"presentation" : 1,
 									"presentation_rect" : [ 492.730816602706909, 195.906005859375, 44.0, 48.0 ],
 									"saved_attribute_attributes" : 									{
+										"activedialcolor" : 										{
+											"expression" : ""
+										}
+,
+										"activeneedlecolor" : 										{
+											"expression" : ""
+										}
+,
+										"dialcolor" : 										{
+											"expression" : ""
+										}
+,
+										"textcolor" : 										{
+											"expression" : ""
+										}
+,
 										"valueof" : 										{
 											"parameter_longname" : "A2",
 											"parameter_mmax" : 1023.0,
@@ -3764,6 +3853,22 @@
 									"presentation" : 1,
 									"presentation_rect" : [ 454.693310499191284, 195.906005859375, 44.0, 48.0 ],
 									"saved_attribute_attributes" : 									{
+										"activedialcolor" : 										{
+											"expression" : ""
+										}
+,
+										"activeneedlecolor" : 										{
+											"expression" : ""
+										}
+,
+										"dialcolor" : 										{
+											"expression" : ""
+										}
+,
+										"textcolor" : 										{
+											"expression" : ""
+										}
+,
 										"valueof" : 										{
 											"parameter_longname" : "A1",
 											"parameter_mmax" : 1023.0,
@@ -3798,6 +3903,30 @@
 									"presentation" : 1,
 									"presentation_rect" : [ 398.690014600753784, 216.906005859375, 15.0, 15.0 ],
 									"saved_attribute_attributes" : 									{
+										"activebgcolor" : 										{
+											"expression" : ""
+										}
+,
+										"activebgoncolor" : 										{
+											"expression" : ""
+										}
+,
+										"bgcolor" : 										{
+											"expression" : ""
+										}
+,
+										"bgoncolor" : 										{
+											"expression" : ""
+										}
+,
+										"bordercolor" : 										{
+											"expression" : ""
+										}
+,
+										"focusbordercolor" : 										{
+											"expression" : ""
+										}
+,
 										"valueof" : 										{
 											"parameter_enum" : [ "off", "on" ],
 											"parameter_initial" : [ 0.0 ],
@@ -3833,6 +3962,30 @@
 									"presentation" : 1,
 									"presentation_rect" : [ 362.864727735519409, 216.906005859375, 15.0, 15.0 ],
 									"saved_attribute_attributes" : 									{
+										"activebgcolor" : 										{
+											"expression" : ""
+										}
+,
+										"activebgoncolor" : 										{
+											"expression" : ""
+										}
+,
+										"bgcolor" : 										{
+											"expression" : ""
+										}
+,
+										"bgoncolor" : 										{
+											"expression" : ""
+										}
+,
+										"bordercolor" : 										{
+											"expression" : ""
+										}
+,
+										"focusbordercolor" : 										{
+											"expression" : ""
+										}
+,
 										"valueof" : 										{
 											"parameter_enum" : [ "off", "on" ],
 											"parameter_initial" : [ 0.0 ],
@@ -3868,6 +4021,30 @@
 									"presentation" : 1,
 									"presentation_rect" : [ 325.508190870285034, 216.906005859375, 15.0, 15.0 ],
 									"saved_attribute_attributes" : 									{
+										"activebgcolor" : 										{
+											"expression" : ""
+										}
+,
+										"activebgoncolor" : 										{
+											"expression" : ""
+										}
+,
+										"bgcolor" : 										{
+											"expression" : ""
+										}
+,
+										"bgoncolor" : 										{
+											"expression" : ""
+										}
+,
+										"bordercolor" : 										{
+											"expression" : ""
+										}
+,
+										"focusbordercolor" : 										{
+											"expression" : ""
+										}
+,
 										"valueof" : 										{
 											"parameter_enum" : [ "off", "on" ],
 											"parameter_initial" : [ 0.0 ],
@@ -3903,6 +4080,30 @@
 									"presentation" : 1,
 									"presentation_rect" : [ 289.507458448410034, 216.906005859375, 15.0, 15.0 ],
 									"saved_attribute_attributes" : 									{
+										"activebgcolor" : 										{
+											"expression" : ""
+										}
+,
+										"activebgoncolor" : 										{
+											"expression" : ""
+										}
+,
+										"bgcolor" : 										{
+											"expression" : ""
+										}
+,
+										"bgoncolor" : 										{
+											"expression" : ""
+										}
+,
+										"bordercolor" : 										{
+											"expression" : ""
+										}
+,
+										"focusbordercolor" : 										{
+											"expression" : ""
+										}
+,
 										"valueof" : 										{
 											"parameter_enum" : [ "off", "on" ],
 											"parameter_initial" : [ 0.0 ],
@@ -3938,6 +4139,30 @@
 									"presentation" : 1,
 									"presentation_rect" : [ 251.940411329269409, 216.906005859375, 15.0, 15.0 ],
 									"saved_attribute_attributes" : 									{
+										"activebgcolor" : 										{
+											"expression" : ""
+										}
+,
+										"activebgoncolor" : 										{
+											"expression" : ""
+										}
+,
+										"bgcolor" : 										{
+											"expression" : ""
+										}
+,
+										"bgoncolor" : 										{
+											"expression" : ""
+										}
+,
+										"bordercolor" : 										{
+											"expression" : ""
+										}
+,
+										"focusbordercolor" : 										{
+											"expression" : ""
+										}
+,
 										"valueof" : 										{
 											"parameter_enum" : [ "off", "on" ],
 											"parameter_initial" : [ 0.0 ],
@@ -3973,6 +4198,30 @@
 									"presentation" : 1,
 									"presentation_rect" : [ 217.193737745285034, 216.906005859375, 15.0, 15.0 ],
 									"saved_attribute_attributes" : 									{
+										"activebgcolor" : 										{
+											"expression" : ""
+										}
+,
+										"activebgoncolor" : 										{
+											"expression" : ""
+										}
+,
+										"bgcolor" : 										{
+											"expression" : ""
+										}
+,
+										"bgoncolor" : 										{
+											"expression" : ""
+										}
+,
+										"bordercolor" : 										{
+											"expression" : ""
+										}
+,
+										"focusbordercolor" : 										{
+											"expression" : ""
+										}
+,
 										"valueof" : 										{
 											"parameter_enum" : [ "off", "on" ],
 											"parameter_initial" : [ 0.0 ],
@@ -4008,6 +4257,30 @@
 									"presentation" : 1,
 									"presentation_rect" : [ 182.447064161300659, 216.906005859375, 15.0, 15.0 ],
 									"saved_attribute_attributes" : 									{
+										"activebgcolor" : 										{
+											"expression" : ""
+										}
+,
+										"activebgoncolor" : 										{
+											"expression" : ""
+										}
+,
+										"bgcolor" : 										{
+											"expression" : ""
+										}
+,
+										"bgoncolor" : 										{
+											"expression" : ""
+										}
+,
+										"bordercolor" : 										{
+											"expression" : ""
+										}
+,
+										"focusbordercolor" : 										{
+											"expression" : ""
+										}
+,
 										"valueof" : 										{
 											"parameter_enum" : [ "off", "on" ],
 											"parameter_initial" : [ 0.0 ],
@@ -4043,6 +4316,30 @@
 									"presentation" : 1,
 									"presentation_rect" : [ 147.700405836105347, 216.906005859375, 15.0, 15.0 ],
 									"saved_attribute_attributes" : 									{
+										"activebgcolor" : 										{
+											"expression" : ""
+										}
+,
+										"activebgoncolor" : 										{
+											"expression" : ""
+										}
+,
+										"bgcolor" : 										{
+											"expression" : ""
+										}
+,
+										"bgoncolor" : 										{
+											"expression" : ""
+										}
+,
+										"bordercolor" : 										{
+											"expression" : ""
+										}
+,
+										"focusbordercolor" : 										{
+											"expression" : ""
+										}
+,
 										"valueof" : 										{
 											"parameter_enum" : [ "off", "on" ],
 											"parameter_initial" : [ 0.0 ],
@@ -4078,6 +4375,30 @@
 									"presentation" : 1,
 									"presentation_rect" : [ 112.953716993331909, 216.906005859375, 15.0, 15.0 ],
 									"saved_attribute_attributes" : 									{
+										"activebgcolor" : 										{
+											"expression" : ""
+										}
+,
+										"activebgoncolor" : 										{
+											"expression" : ""
+										}
+,
+										"bgcolor" : 										{
+											"expression" : ""
+										}
+,
+										"bgoncolor" : 										{
+											"expression" : ""
+										}
+,
+										"bordercolor" : 										{
+											"expression" : ""
+										}
+,
+										"focusbordercolor" : 										{
+											"expression" : ""
+										}
+,
 										"valueof" : 										{
 											"parameter_enum" : [ "off", "on" ],
 											"parameter_initial" : [ 0.0 ],
@@ -4113,6 +4434,30 @@
 									"presentation" : 1,
 									"presentation_rect" : [ 78.20702052116394, 216.906005859375, 15.0, 15.0 ],
 									"saved_attribute_attributes" : 									{
+										"activebgcolor" : 										{
+											"expression" : ""
+										}
+,
+										"activebgoncolor" : 										{
+											"expression" : ""
+										}
+,
+										"bgcolor" : 										{
+											"expression" : ""
+										}
+,
+										"bgoncolor" : 										{
+											"expression" : ""
+										}
+,
+										"bordercolor" : 										{
+											"expression" : ""
+										}
+,
+										"focusbordercolor" : 										{
+											"expression" : ""
+										}
+,
 										"valueof" : 										{
 											"parameter_enum" : [ "off", "on" ],
 											"parameter_initial" : [ 0.0 ],
@@ -4148,6 +4493,30 @@
 									"presentation" : 1,
 									"presentation_rect" : [ 43.460354566574097, 216.906005859375, 15.0, 15.0 ],
 									"saved_attribute_attributes" : 									{
+										"activebgcolor" : 										{
+											"expression" : ""
+										}
+,
+										"activebgoncolor" : 										{
+											"expression" : ""
+										}
+,
+										"bgcolor" : 										{
+											"expression" : ""
+										}
+,
+										"bgoncolor" : 										{
+											"expression" : ""
+										}
+,
+										"bordercolor" : 										{
+											"expression" : ""
+										}
+,
+										"focusbordercolor" : 										{
+											"expression" : ""
+										}
+,
 										"valueof" : 										{
 											"parameter_enum" : [ "off", "on" ],
 											"parameter_initial" : [ 0.0 ],
@@ -4183,6 +4552,30 @@
 									"presentation" : 1,
 									"presentation_rect" : [ 8.71367621421814, 216.906005859375, 15.0, 15.0 ],
 									"saved_attribute_attributes" : 									{
+										"activebgcolor" : 										{
+											"expression" : ""
+										}
+,
+										"activebgoncolor" : 										{
+											"expression" : ""
+										}
+,
+										"bgcolor" : 										{
+											"expression" : ""
+										}
+,
+										"bgoncolor" : 										{
+											"expression" : ""
+										}
+,
+										"bordercolor" : 										{
+											"expression" : ""
+										}
+,
+										"focusbordercolor" : 										{
+											"expression" : ""
+										}
+,
 										"valueof" : 										{
 											"parameter_enum" : [ "off", "on" ],
 											"parameter_initial" : [ 0.0 ],
@@ -4214,6 +4607,22 @@
 									"presentation" : 1,
 									"presentation_rect" : [ 417.385388135910034, 195.906005859375, 44.0, 48.0 ],
 									"saved_attribute_attributes" : 									{
+										"activedialcolor" : 										{
+											"expression" : ""
+										}
+,
+										"activeneedlecolor" : 										{
+											"expression" : ""
+										}
+,
+										"dialcolor" : 										{
+											"expression" : ""
+										}
+,
+										"textcolor" : 										{
+											"expression" : ""
+										}
+,
 										"valueof" : 										{
 											"parameter_longname" : "A0",
 											"parameter_mmax" : 1023.0,
@@ -4851,6 +5260,30 @@
 									"presentation_rect" : [ 621.609631299972534, -0.734431505203247, 15.0, 15.0 ],
 									"rounded" : 15.0,
 									"saved_attribute_attributes" : 									{
+										"activebgcolor" : 										{
+											"expression" : ""
+										}
+,
+										"activebgoncolor" : 										{
+											"expression" : ""
+										}
+,
+										"bgcolor" : 										{
+											"expression" : ""
+										}
+,
+										"bgoncolor" : 										{
+											"expression" : ""
+										}
+,
+										"bordercolor" : 										{
+											"expression" : ""
+										}
+,
+										"focusbordercolor" : 										{
+											"expression" : ""
+										}
+,
 										"valueof" : 										{
 											"parameter_enum" : [ "off", "on" ],
 											"parameter_initial" : [ 0.0 ],
@@ -4887,6 +5320,30 @@
 									"presentation_rect" : [ 571.609631299972534, -0.734431505203247, 15.0, 15.0 ],
 									"rounded" : 15.0,
 									"saved_attribute_attributes" : 									{
+										"activebgcolor" : 										{
+											"expression" : ""
+										}
+,
+										"activebgoncolor" : 										{
+											"expression" : ""
+										}
+,
+										"bgcolor" : 										{
+											"expression" : ""
+										}
+,
+										"bgoncolor" : 										{
+											"expression" : ""
+										}
+,
+										"bordercolor" : 										{
+											"expression" : ""
+										}
+,
+										"focusbordercolor" : 										{
+											"expression" : ""
+										}
+,
 										"valueof" : 										{
 											"parameter_enum" : [ "off", "on" ],
 											"parameter_initial" : [ 0.0 ],
@@ -4923,6 +5380,30 @@
 									"presentation_rect" : [ 514.333386182785034, -0.734431505203247, 15.0, 15.0 ],
 									"rounded" : 15.0,
 									"saved_attribute_attributes" : 									{
+										"activebgcolor" : 										{
+											"expression" : ""
+										}
+,
+										"activebgoncolor" : 										{
+											"expression" : ""
+										}
+,
+										"bgcolor" : 										{
+											"expression" : ""
+										}
+,
+										"bgoncolor" : 										{
+											"expression" : ""
+										}
+,
+										"bordercolor" : 										{
+											"expression" : ""
+										}
+,
+										"focusbordercolor" : 										{
+											"expression" : ""
+										}
+,
 										"valueof" : 										{
 											"parameter_enum" : [ "off", "on" ],
 											"parameter_initial" : [ 0.0 ],
@@ -4959,6 +5440,30 @@
 									"presentation_rect" : [ 455.789135694503784, -0.734431505203247, 15.0, 15.0 ],
 									"rounded" : 15.0,
 									"saved_attribute_attributes" : 									{
+										"activebgcolor" : 										{
+											"expression" : ""
+										}
+,
+										"activebgoncolor" : 										{
+											"expression" : ""
+										}
+,
+										"bgcolor" : 										{
+											"expression" : ""
+										}
+,
+										"bgoncolor" : 										{
+											"expression" : ""
+										}
+,
+										"bordercolor" : 										{
+											"expression" : ""
+										}
+,
+										"focusbordercolor" : 										{
+											"expression" : ""
+										}
+,
 										"valueof" : 										{
 											"parameter_enum" : [ "off", "on" ],
 											"parameter_initial" : [ 0.0 ],
@@ -4995,6 +5500,30 @@
 									"presentation_rect" : [ 397.866467237472534, -0.734431505203247, 15.0, 15.0 ],
 									"rounded" : 15.0,
 									"saved_attribute_attributes" : 									{
+										"activebgcolor" : 										{
+											"expression" : ""
+										}
+,
+										"activebgoncolor" : 										{
+											"expression" : ""
+										}
+,
+										"bgcolor" : 										{
+											"expression" : ""
+										}
+,
+										"bgoncolor" : 										{
+											"expression" : ""
+										}
+,
+										"bordercolor" : 										{
+											"expression" : ""
+										}
+,
+										"focusbordercolor" : 										{
+											"expression" : ""
+										}
+,
 										"valueof" : 										{
 											"parameter_enum" : [ "off", "on" ],
 											"parameter_initial" : [ 0.0 ],
@@ -5031,6 +5560,30 @@
 									"presentation_rect" : [ 341.922711133956909, -0.734431505203247, 15.0, 15.0 ],
 									"rounded" : 15.0,
 									"saved_attribute_attributes" : 									{
+										"activebgcolor" : 										{
+											"expression" : ""
+										}
+,
+										"activebgoncolor" : 										{
+											"expression" : ""
+										}
+,
+										"bgcolor" : 										{
+											"expression" : ""
+										}
+,
+										"bgoncolor" : 										{
+											"expression" : ""
+										}
+,
+										"bordercolor" : 										{
+											"expression" : ""
+										}
+,
+										"focusbordercolor" : 										{
+											"expression" : ""
+										}
+,
 										"valueof" : 										{
 											"parameter_enum" : [ "off", "on" ],
 											"parameter_initial" : [ 0.0 ],
@@ -5067,6 +5620,30 @@
 									"presentation_rect" : [ 282.705609083175659, -0.734431505203247, 15.0, 15.0 ],
 									"rounded" : 15.0,
 									"saved_attribute_attributes" : 									{
+										"activebgcolor" : 										{
+											"expression" : ""
+										}
+,
+										"activebgoncolor" : 										{
+											"expression" : ""
+										}
+,
+										"bgcolor" : 										{
+											"expression" : ""
+										}
+,
+										"bgoncolor" : 										{
+											"expression" : ""
+										}
+,
+										"bordercolor" : 										{
+											"expression" : ""
+										}
+,
+										"focusbordercolor" : 										{
+											"expression" : ""
+										}
+,
 										"valueof" : 										{
 											"parameter_enum" : [ "off", "on" ],
 											"parameter_initial" : [ 0.0 ],
@@ -5103,6 +5680,30 @@
 									"presentation_rect" : [ 223.493435621261597, -0.734431505203247, 15.0, 15.0 ],
 									"rounded" : 15.0,
 									"saved_attribute_attributes" : 									{
+										"activebgcolor" : 										{
+											"expression" : ""
+										}
+,
+										"activebgoncolor" : 										{
+											"expression" : ""
+										}
+,
+										"bgcolor" : 										{
+											"expression" : ""
+										}
+,
+										"bgoncolor" : 										{
+											"expression" : ""
+										}
+,
+										"bordercolor" : 										{
+											"expression" : ""
+										}
+,
+										"focusbordercolor" : 										{
+											"expression" : ""
+										}
+,
 										"valueof" : 										{
 											"parameter_enum" : [ "off", "on" ],
 											"parameter_initial" : [ 0.0 ],
@@ -5139,6 +5740,30 @@
 									"presentation_rect" : [ 108.21672511100769, -0.734431505203247, 15.0, 15.0 ],
 									"rounded" : 15.0,
 									"saved_attribute_attributes" : 									{
+										"activebgcolor" : 										{
+											"expression" : ""
+										}
+,
+										"activebgoncolor" : 										{
+											"expression" : ""
+										}
+,
+										"bgcolor" : 										{
+											"expression" : ""
+										}
+,
+										"bgoncolor" : 										{
+											"expression" : ""
+										}
+,
+										"bordercolor" : 										{
+											"expression" : ""
+										}
+,
+										"focusbordercolor" : 										{
+											"expression" : ""
+										}
+,
 										"valueof" : 										{
 											"parameter_enum" : [ "off", "on" ],
 											"parameter_initial" : [ 0.0 ],
@@ -5175,6 +5800,30 @@
 									"presentation_rect" : [ 58.950009107589722, -0.734431505203247, 15.0, 15.0 ],
 									"rounded" : 15.0,
 									"saved_attribute_attributes" : 									{
+										"activebgcolor" : 										{
+											"expression" : ""
+										}
+,
+										"activebgoncolor" : 										{
+											"expression" : ""
+										}
+,
+										"bgcolor" : 										{
+											"expression" : ""
+										}
+,
+										"bgoncolor" : 										{
+											"expression" : ""
+										}
+,
+										"bordercolor" : 										{
+											"expression" : ""
+										}
+,
+										"focusbordercolor" : 										{
+											"expression" : ""
+										}
+,
 										"valueof" : 										{
 											"parameter_enum" : [ "off", "on" ],
 											"parameter_initial" : [ 0.0 ],
@@ -5211,6 +5860,30 @@
 									"presentation_rect" : [ 0.0, -0.734431505203247, 15.0, 15.0 ],
 									"rounded" : 15.0,
 									"saved_attribute_attributes" : 									{
+										"activebgcolor" : 										{
+											"expression" : ""
+										}
+,
+										"activebgoncolor" : 										{
+											"expression" : ""
+										}
+,
+										"bgcolor" : 										{
+											"expression" : ""
+										}
+,
+										"bgoncolor" : 										{
+											"expression" : ""
+										}
+,
+										"bordercolor" : 										{
+											"expression" : ""
+										}
+,
+										"focusbordercolor" : 										{
+											"expression" : ""
+										}
+,
 										"valueof" : 										{
 											"parameter_enum" : [ "off", "on" ],
 											"parameter_initial" : [ 0.0 ],
@@ -5246,6 +5919,30 @@
 									"patching_rect" : [ 1609.8333740234375, 152.5989990234375, 15.0, 15.0 ],
 									"rounded" : 15.0,
 									"saved_attribute_attributes" : 									{
+										"activebgcolor" : 										{
+											"expression" : ""
+										}
+,
+										"activebgoncolor" : 										{
+											"expression" : ""
+										}
+,
+										"bgcolor" : 										{
+											"expression" : ""
+										}
+,
+										"bgoncolor" : 										{
+											"expression" : ""
+										}
+,
+										"bordercolor" : 										{
+											"expression" : ""
+										}
+,
+										"focusbordercolor" : 										{
+											"expression" : ""
+										}
+,
 										"valueof" : 										{
 											"parameter_enum" : [ "off", "on" ],
 											"parameter_initial" : [ 1 ],
@@ -6039,8 +6736,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 1,
-											"revision" : 10,
+											"minor" : 5,
+											"revision" : 3,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
