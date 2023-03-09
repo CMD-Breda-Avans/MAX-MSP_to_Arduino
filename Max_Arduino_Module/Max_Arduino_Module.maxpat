@@ -67,12 +67,12 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-6",
-					"linecount" : 19,
+					"linecount" : 18,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 26.0, 339.0, 664.0, 261.0 ],
-					"text" : "Basic info:\nInstructions:\n\nArduino to Max module (main Max patch, source and arduino code)\nBasic info version 2023 \n(baudrate is set to 115200) If you have connection problems while using multiple IO try changing arduino code IO)\nSensor readout is set to 50ms\n\nOn the topside of the module you have data inlets to write to Arduino\nOn the bottom there data outlets. Here we read from the arduino\n\n!!!!!!!!!!!!!!!!FIRST: Upload the ArduinoSketchforMaxModule.ino sketch to your arduino IT WILL NOT WORK WITH OTHER ARDUINO CODE!!!!!!!!!\n\n1. Press the 'SYSTEM ON / OFF' in module. If no connection is established the menu on the right will say \"no arduino connected\". A good connection will show you the serial port your arduino is connected to.\n2. Enable analog and / or digtal READOUT and then individual pins (keep this OFF if you are only writing to arduino)\n3. You can switch the function of data inlets 3, 5, 6, 9 & 10 on the topside of the module to be digital, analog or servo mode (default = digital. (Note: you can connect multiple servo motors but HAVE TO USE A EXTERNAL POWERSOURCE"
+					"patching_rect" : [ 26.0, 339.0, 664.0, 248.0 ],
+					"text" : "Version 2023 \n\nArduino to Max module (main Max patch, source and arduino code)\n\n(baudrate is set to 115200) If you have connection problems while using multiple IO try changing arduino code IO)\nSensor readout is set to 50ms\n\nOn the topside of the module you have data inlets to write to Arduino\nOn the bottom there data outlets. Here we read from the arduino\n\n!!!!!!!!!!!!!!!!FIRST: Upload the ArduinoSketchforMaxModule.ino sketch to your arduino IT WILL NOT WORK WITH OTHER ARDUINO CODE!!!!!!!!!\n\n1. Press the 'SYSTEM ON / OFF' in module. If no connection is established the menu on the right will say \"no arduino connected\". A good connection will show you the serial port your arduino is connected to.\n2. Enable analog and / or digtal READOUT and then individual pins (keep this OFF if you are only writing to arduino)\n3. You can switch the function of data inlets 3, 5, 6, 9 & 10 on the topside of the module to be digital, analog or servo mode (default = digital. (Note: you can connect multiple servo motors but HAVE TO USE A EXTERNAL POWERSOURCE"
 				}
 
 			}
@@ -2657,7 +2657,7 @@
 									"bgfillcolor_proportion" : 0.5,
 									"bgfillcolor_type" : "gradient",
 									"id" : "obj-3",
-									"items" : [ "no", "arduino", "connected", ",", "wlan-debug", ",", "dinggoo", ",", "Bluetooth-Incoming-Port" ],
+									"items" : [ "wlan-debug", ",", "dinggoo", ",", "Bluetooth-Incoming-Port", ",", "usbmodem1101" ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
