@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 197.0, 87.0, 860.0, 562.0 ],
+		"rect" : [ 197.0, 100.0, 860.0, 562.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -40,27 +40,37 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
-					"id" : "obj-17",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 599.0, 313.0, 87.0, 22.0 ],
-					"text" : "launchbrowser"
+					"id" : "obj-19",
+					"linecount" : 4,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 293.0, 324.0, 388.0, 60.0 ],
+					"text" : "1. press print\n2. check correct port in serial object and change is needed \n3. click open, poll 30 message\n4. see your heartrate"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"autofit" : 1,
-					"forceaspect" : 1,
-					"id" : "obj-13",
-					"maxclass" : "fpic",
+					"id" : "obj-15",
+					"maxclass" : "comment",
 					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 298.0, 244.0, 150.0, 20.0 ],
+					"text" : "INFO "
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-17",
+					"linecount" : 2,
+					"maxclass" : "message",
+					"numinlets" : 2,
 					"numoutlets" : 1,
-					"outlettype" : [ "jit_matrix" ],
-					"patching_rect" : [ 299.0, 257.0, 207.0, 207.0 ],
-					"pic" : "/Users/markz/Desktop/grove-sirdies-ritmo-matuoklis-zmogaus-sirdies-ritmo-jutiklis-su-korpusu-201349-500x500.jpg"
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 298.0, 266.0, 478.0, 35.0 ],
+					"text" : ";\rmax launchbrowser https://wiki.seeedstudio.com/Grove-Finger-clip_Heart_Rate_Sensor/"
 				}
 
 			}
@@ -84,7 +94,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 80.5, 47.0, 77.0, 22.0 ],
-					"presentation_linecount" : 3,
 					"text" : "open, poll 30"
 				}
 
@@ -162,8 +171,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 293.0, 27.0, 150.0, 20.0 ],
-					"text" : "Arduino code"
+					"patching_rect" : [ 293.0, 27.0, 622.0, 20.0 ],
+					"text" : "!!!!!!! USE THIS Arduino code!!!!!!!! IT WILL NOT WORK WITH THE STANDARD MAX  ARDUINO MODULE"
 				}
 
 			}
@@ -174,7 +183,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 293.0, 54.0, 410.0, 194.0 ],
+					"patching_rect" : [ 293.0, 47.0, 410.0, 194.0 ],
 					"text" : "#include <Wire.h>\nvoid setup() {\n    Serial.begin(9600);\n    Serial.println(\"heart rate sensor:\");\n    Wire.begin();\n}\nvoid loop() {\n    Wire.requestFrom(0xA0 >> 1, 1);    // request 1 bytes from slave device\n    while(Wire.available()) {          // slave may send less than requested\n        unsigned char c = Wire.read();   // receive heart rate value (a byte)\n        Serial.println(c, DEC);         // print heart rate value\n    }\n    delay(500);\n}"
 				}
 
@@ -289,14 +298,7 @@
 
 			}
  ],
-		"dependency_cache" : [ 			{
-				"name" : "grove-sirdies-ritmo-matuoklis-zmogaus-sirdies-ritmo-jutiklis-su-korpusu-201349-500x500.jpg",
-				"bootpath" : "~/Desktop",
-				"patcherrelativepath" : "../../../../../../../../../Desktop",
-				"type" : "JPEG",
-				"implicit" : 1
-			}
- ],
+		"dependency_cache" : [  ],
 		"autosave" : 0
 	}
 
