@@ -1,5 +1,5 @@
 /* 
- VERSIE maart 2021
+ VERSION march 2023
  ---- CMD SimpleMessageSystem ----
  Control Arduino board functions with the following messages:
  
@@ -9,27 +9,11 @@
  w a [pin] [value] -> write analog pin
  w s [pin] [value] -> write servo pin
  
- 
  Base: Thomas Ouellet Fredericks 
  Additions: Alexandre Quessy, Thijs Eerens, Mark Meeuwenoord, Thomas Huster
  
  */
 
- /*
-  ---- Grove Starter Kit ----
-
-  Grove_Button, 2, 3, 4, 5, 6, 7, 8 || Read digital
-  Grove_Buzzer, Advanced, Check Arduino Code
-  Grove_LED,  3, 5, 6 || Write Analog
-  Grove_Light_Sensor, A0, A1, A2, A3 || Read Analog
-  Grove_Relay, 2, 3, 4, 5, 6, 7, 8  || Write digital
-  Grove_RGB_Backlight_LCD, Advanced, Check Arduino Code
-  Grove_Rotary_Angle_Sensor, A0, A1, A2, A3 || Read Analog
-  Grove_Servo,  3, 5, 6 || Write Servo
-  Grove_Grove_Sound_Sensor, A0, A1, A2, A3 || Read Analog
-  Grove_Temperature_Sensor, A0, A1, A2, A3 || Read Analog + for accurate result check Arduino Code. 
- 
- */
 
 #include <Servo.h> 
 
