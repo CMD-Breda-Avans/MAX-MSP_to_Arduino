@@ -88,7 +88,7 @@
 					"lockeddragscroll" : 0,
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "Arduino_Max_Module_Source_V2023.maxpat",
+					"name" : "Arduino_Max_Module_Source_V2024.maxpat",
 					"numinlets" : 12,
 					"numoutlets" : 18,
 					"offset" : [ 0.0, 0.0 ],
@@ -104,7 +104,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 317.0, 310.0, 676.0, 331.0 ],
+						"rect" : [ 161.0, 114.0, 718.0, 435.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 12.0,
@@ -2657,7 +2657,7 @@
 									"bgfillcolor_proportion" : 0.5,
 									"bgfillcolor_type" : "gradient",
 									"id" : "obj-3",
-									"items" : "<empty>",
+									"items" : [ "no", "arduino", "connected", ",", "wlan-debug", ",", "dinggoo", ",", "Bluetooth-Incoming-Port" ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -6387,7 +6387,7 @@
 									"maxclass" : "inlet",
 									"numinlets" : 0,
 									"numoutlets" : 1,
-									"outlettype" : [ "int" ],
+									"outlettype" : [ "" ],
 									"patching_rect" : [ 1022.8333740234375, 160.142822265625, 30.0, 30.0 ]
 								}
 
@@ -8412,14 +8412,7 @@
 
 			}
  ],
-		"lines" : [ 			{
-				"patchline" : 				{
-					"destination" : [ "obj-1", 11 ],
-					"source" : [ "obj-5", 0 ]
-				}
-
-			}
- ],
+		"lines" : [  ],
 		"parameters" : 		{
 			"obj-1::obj-104" : [ "write[6]", "write", 0 ],
 			"obj-1::obj-106" : [ "write[9]", "write", 0 ],
