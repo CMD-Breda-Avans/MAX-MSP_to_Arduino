@@ -1,5 +1,5 @@
 /* 
- VERSION march 2023
+ VERSION march 2024
  ---- CMD SimpleMessageSystem ----
  Control Arduino board functions with the following messages:
  
